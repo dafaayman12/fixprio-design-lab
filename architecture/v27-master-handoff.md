@@ -1,0 +1,13 @@
+# V27 — Master Codex handoff
+2026-11-26. Final prototype handoff candidate; not production acceptance.
+
+## Deliverables
+Local archive fixprio-v27-master-handoff.zip SHA-256 167d26a228af09244a2b29b1820401e2915b6c2313608e72766b9b6ccf370b75. 18 payload files verified by SHA-256 manifest; ZIP integrity verified. Contains exact V25 prototype (ce117901ed6bb1e1b64d87b3a857d96e628865fc6d988bb393d078e3e0028ca6), visual overview/RTL references, original V25 visual evidence and V26 audit archive, original V13.1/V13.6, V16, QR and V26 specifications/evidence, owner-approved Take App parity, implementation brief, source index and G0 first-task prompt. No new application changes or regression execution; V26 evidence retains its original scope (57 passing suite-width executions, 24 exact digital print samples and two reproduced prototype defects). Full archive is delivered locally, not uploaded to this repository.
+
+## Codex first task — G0 only
+Read the extracted handoff. Inspect actual Redfix and Revio worktrees, exact commits, local/remote refs, dirty state, AGENTS, ADRs, domain contracts, protected screenshots, migrations and tests. Compare V25 design intent to actual implemented behavior. Preserve existing Redfix RPCs and Revio workflows, approved public Store and repair designs. Redfix remains authoritative for published products, orders and shared stock; Revio for repair records; one logical identity and communications policy. Report contradictions and missing inputs. Run relevant existing quality gates only in isolated synthetic environments; no live data, secrets, remote mutations, merge, push, hosting change, deployment or provider activation. Produce exact repository/evidence matrix, G0–G7 dispositions, P1-B1 recovery and B4b cancellation status, real equivalents of V26 negative probes, and one smallest next implementation slice with acceptance tests and rollback. Stop for owner approval. No speculative schema or full rewrite.
+
+## Known limits
+Read current main file snapshots: Redfix docs/features.md blob 9191a25144638a8b83c239baf94974ebfe0b7045; Revio README.md blob 28d316cfded4529c2c1d33728ae920cd7ab58b9e. These are document evidence, not verified actual local HEAD or production audit. Exact original public Store and Revio public repair visual sources not included; retrieve during G0. Full historical archive remote transfer unverified. All production gates remain open. Start with G0; next select G1/G2 security/recovery/transaction integrity slice. Retain V13.1 G0–G8 for WhatsApp; no live messages. No feature creep. Documentation only published.
+
+Related: [V26 audit](v26-final-acceptance-audit.md), [Take App parity](../specifications/take-app-parity.md).
